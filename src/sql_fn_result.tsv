@@ -1,0 +1,134 @@
+name	is_builtin	categoly
+abs	1	core
+avg	1	aggregate
+bm25	0	
+changes	1	core
+char	1	core
+coalesce	1	core
+count	1	aggregate
+cume_dist	1	window
+current_date	1	
+current_time	1	
+current_timestamp	1	
+date	1	date
+datetime	1	date
+dense_rank	1	window
+edit	0	
+first_value	1	window
+fts3_tokenizer	0	
+fts5	0	
+fts5_decode	0	
+fts5_decode_none	0	
+fts5_expr	0	
+fts5_expr_tcl	0	
+fts5_fold	0	
+fts5_isalnum	0	
+fts5_rowid	0	
+fts5_source_id	0	
+geopoly_area	0	
+geopoly_bbox	0	
+geopoly_blob	0	
+geopoly_ccw	0	
+geopoly_contains_point	0	
+geopoly_debug	0	
+geopoly_group_bbox	0	
+geopoly_json	0	
+geopoly_overlap	0	
+geopoly_regular	0	
+geopoly_svg	0	
+geopoly_within	0	
+geopoly_xform	0	
+glob	1	core
+group_concat	1	aggregate
+hex	1	core
+highlight	0	
+icu_load_collation	0	
+ifnull	1	core
+instr	1	core
+json	0	
+json_array	0	
+json_array_length	0	
+json_extract	0	
+json_group_array	0	
+json_group_object	0	
+json_insert	0	
+json_object	0	
+json_patch	0	
+json_quote	0	
+json_remove	0	
+json_replace	0	
+json_set	0	
+json_type	0	
+json_valid	0	
+julianday	1	date
+lag	1	window
+last_insert_rowid	1	core
+last_value	1	window
+lead	1	window
+length	1	core
+like	1	core
+like	1	core
+likelihood	1	core
+likely	1	core
+load_extension	1	core
+lower	1	core
+lower	1	core
+lsmode	0	
+ltrim	1	core
+match	0	
+matchinfo	0	
+max	1	aggregate
+min	1	aggregate
+nth_value	1	window
+ntile	1	window
+nullif	1	core
+offsets	0	
+optimize	0	
+percent_rank	1	window
+printf	1	core
+quote	1	core
+random	1	core
+randomblob	1	core
+rank	1	window
+readfile	0	
+regexp	0	
+replace	1	core
+round	1	core
+row_number	1	window
+rtreecheck	0	
+rtreedepth	0	
+rtreenode	0	
+rtrim	1	core
+sha3	0	
+sha3_query	0	
+shell_add_schema	0	
+shell_escape_crnl	0	
+shell_int32	0	
+shell_module_schema	0	
+shell_putsnl	0	
+snippet	0	
+sqlar_compress	0	
+sqlar_uncompress	0	
+sqlite_compileoption_get	1	core
+sqlite_compileoption_used	1	core
+sqlite_log	1	
+sqlite_offset	1	core
+sqlite_source_id	1	core
+sqlite_version	1	core
+strftime	1	date
+substr	1	core
+sum	1	aggregate
+time	1	date
+total	1	aggregate
+total_changes	1	core
+trim	1	core
+typeof	1	core
+unicode	1	core
+unknown	1	
+unlikely	1	core
+upper	1	core
+upper	1	core
+writefile	0	
+zeroblob	1	core
+zipfile	0	
+zipfile_cds	0	
